@@ -113,6 +113,7 @@ Once in the development shell, you can clone and work on the original rsensor re
 ```bash
 git clone https://github.com/tahuffman1s/rsensor
 cd rsensor
+cargo vendor
 cargo build
 cargo run
 ```
